@@ -1,0 +1,5 @@
+<% @legislators.each do |legislator| %>
+  <p>
+    <h3><%= link_to "#{legislator.first_name} #{legislator.last_name}", legislator.website %></h3>
+  </p>
+<% end %>
